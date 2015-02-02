@@ -22,7 +22,7 @@ If you `cd` to a Git working directory, you will see the current Git branch
 name displayed in your terminal prompt. When you're not in a Git working
 directory, your prompt works like normal.
 
-![Git Branch in Prompt](https://raw.github.com/jimeh/git-aware-prompt/master/preview.png)
+![Git Branch in Prompt](https://raw.github.com/galdiolo/git-aware-prompt/master/preview.png)
 
 
 ## Installation
@@ -32,7 +32,7 @@ Clone the project to a `.bash` folder in your home directory:
 ```bash
 mkdir ~/.bash
 cd ~/.bash
-git clone git://github.com/jimeh/git-aware-prompt.git
+git clone git://github.com/galdiolo/git-aware-prompt.git
 ```
 
 Edit your  `~/.profile` or `~/.bash_profile` and add the following to the top:
@@ -84,24 +84,25 @@ git pull
 ## Usage Tips
 
 To view other user's tips, please check the
-[Usage Tips](https://github.com/jimeh/git-aware-prompt/wiki/Usage-Tips) wiki
+[Usage Tips](https://github.com/galdiolo/git-aware-prompt/wiki/Usage-Tips) wiki
 page. Or if you have tips of your own, feel free to add them :)
 
 
 ## License
 
 ```
-        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
+Copyright (C) 2014 Jim Myhrberg
+Copyright 2015 Claudio Galdiolo
+                                
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
- Copyright (C) 2014 Jim Myhrberg
+    http://www.apache.org/licenses/LICENSE-2.0
 
- Everyone is permitted to copy and distribute verbatim or modified
- copies of this license document, and changing it is allowed as long
- as the name is changed.
-
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-
-  0. You just DO WHAT THE FUCK YOU WANT TO.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 ```
